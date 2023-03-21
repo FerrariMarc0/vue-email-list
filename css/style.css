@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(https://disinfestazione24.it/wp-content/uploads/2019/03/alveare-di-api.jpg);
+    background-image: url(https://www.cartadaparati.com/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/0/w05619-small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,14 +14,28 @@ header, main, .container, .box_mail{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-header{
-    background-color: rgba(0, 150, 250, 0.4);
+
+li{
+    list-style-type: none;
+    padding: .3125rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: rgba(238, 233, 233, 0.26);
+    width: 25rem;
+    margin-bottom: .625rem;
+    text-align: center;
+    border-radius: .9375rem;
+    color: goldenrod;
 }
 
 header, footer{
     height: 4.375rem;
     text-align: center;
+}
+header{
+    padding-top: 3.75rem;
 }
 h1{
     padding: .625rem;
@@ -30,29 +44,22 @@ h4{
     padding: 1.25rem;
 }
 a, h1::first-letter{
-    color: gold;
+    color: goldenrod;
     text-decoration: none;
 }
 main{
     height: calc(100vh - 8.75rem);
 }
 .container{
-    height: 25rem;
     width: 37.5rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.9);
     border-radius: 2.5rem;
 }
 .box_mail{
-    height: 15.625rem;
     width: 21.875rem;
     padding: 2.5rem;
 }
-h3{
-    color: #fff;
-}
-footer{
-    background-color: rgba(0, 250, 0, 0.4);
-}
+
 [v-cloak]{
     display: none !important;
 }

@@ -16,7 +16,9 @@
         <div class="container">
             <div id="app" v-cloak>
                 <div class="box_mail">
-                    <h3>{{message}}</h3>
+                    <ul v-for="email in message" class="email_list">
+                        <li>{{email}}</li>
+                    </ul>
                 </div>
             </div>
         </div>
