@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(https://disinfestazione24.it/wp-content/uploads/2019/03/alveare-di-api.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header, main, .container, .box_mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    background-color: rgba(0, 150, 250, 0.4);
+}
+
+header, footer{
+    height: 4.375rem;
+    text-align: center;
+}
+h1{
+    padding: .625rem;
+}
+h4{
+    padding: 1.25rem;
+}
+a, h1::first-letter{
+    color: gold;
+    text-decoration: none;
+}
+main{
+    height: calc(100vh - 8.75rem);
+}
+.container{
+    height: 25rem;
+    width: 37.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5rem;
+}
+.box_mail{
+    height: 15.625rem;
+    width: 21.875rem;
+    padding: 2.5rem;
+}
+h3{
+    color: #fff;
+}
+footer{
+    background-color: rgba(0, 250, 0, 0.4);
+}
+[v-cloak]{
+    display: none !important;
+}
